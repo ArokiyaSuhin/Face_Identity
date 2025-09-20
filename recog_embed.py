@@ -7,7 +7,7 @@ import numpy as np
 KNOWN_FACES_DIR = "known_faces"
 UNKNOWN_FACES_DIR = "unknown_faces"
 TOLERANCE = 0.6  # Lower is more strict. 0.6 is a good default.
-MODEL = "hog"  # or "cnn" for more accurate but slower processing
+MODEL = "cnn"  # or "cnn" for more accurate but slower processing
 FONT = cv2.FONT_HERSHEY_SIMPLEX
 FONT_SCALE = 0.8
 FONT_THICKNESS = 2
